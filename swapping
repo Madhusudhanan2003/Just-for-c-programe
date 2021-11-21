@@ -1,0 +1,15 @@
+#include<stido.h>
+int min()
+{
+double a,b;
+printf("Enter the first number");
+scanf(:%lf,&a);
+printf("Enter the secound number");
+scanf("%lf,%b);
+a=a-b;
+b=a+b;
+a=b-a;
+printf("After swapping,a=%.2lf\n",a);
+printf("After swapping,b=%.2lf\n",b);
+return 0;
+}
